@@ -1,0 +1,92 @@
+body {
+  text-align: center;  
+  background: radial-gradient(circle, 
+      #FFD1DC, #FFAB76, #FFDAC1, #FFC3A0, #FF9A8B, #F3C4FB, #E4C1F9, #D6A2E8);
+  background-size: 300% 300%;
+  animation: gradientRotate 8s infinite linear;
+}
+
+@keyframes gradientRotate {
+  0% { background-position: 50% 0%; }
+  25% { background-position: 100% 50%; }
+  50% { background-position: 50% 100%; }
+  75% { background-position: 0% 50%; }
+  100% { background-position: 50% 0%; }
+}
+
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+#meme-container {
+    display: none; 
+    margin-left: 20px; 
+    float: left;
+  }
+
+#meme-container-right{
+  display: none; 
+  margin-right: 20px; 
+  float: right;
+}
+
+#meme-image {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#meme-image-right {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
